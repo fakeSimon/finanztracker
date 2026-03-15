@@ -28,7 +28,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return date + " | " + type + "|" + category + "|" + amount + "$ | " + description;
+        return date + " | " + type + "|" + category + "|" + amount + "€ | " + description;
     }
 
 
