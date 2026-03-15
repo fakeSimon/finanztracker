@@ -52,4 +52,17 @@ public class TransactionService {
         return total;
     }
 
+    public void printTransactions() {
+
+        if (transactions.isEmpty()) {
+            System.out.println("Keine Transaktionen vorhanden.");
+            return;
+        }
+
+        for (Transaction t : transactions) {
+            System.out.println(t);
+        }
+
+    }
+
 }
