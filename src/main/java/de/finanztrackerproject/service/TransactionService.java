@@ -52,7 +52,7 @@ public class TransactionService {
         return total;
     }
 
-    public void printTransactions() {
+    public void zeigeTransaktion() {
 
         if (transactions.isEmpty()) {
             System.out.println("Keine Transaktionen vorhanden.");
